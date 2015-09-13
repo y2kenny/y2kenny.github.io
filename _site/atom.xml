@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Y2Kenny's Blog</title>
+ <link href="https://y2kenny.github.io/atom.xml" rel="self"/>
+ <link href="https://y2kenny.github.io/"/>
+ <updated>2015-09-13T19:50:51-04:00</updated>
+ <id>https://y2kenny.github.io</id>
+ <author>
+   <name>Kenny Ho</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello world!</title>
+   <link href="https://y2kenny.github.io/2015/09/13/hello-world/"/>
+   <updated>2015-09-13T00:00:00-04:00</updated>
+   <id>https://y2kenny.github.io/2015/09/13/hello-world</id>
+   <content type="html">&lt;p&gt;Welcome to my blog.  I am starting this to keep track of the things I learn as I learn them.  If you find my notes useful that would be great too.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

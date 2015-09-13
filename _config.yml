@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               "Y2Kenny's Blog"
+tagline:             ''
+description:         ''
+url:                 https://y2kenny.github.io
+baseurl:             ''
+paginate:            10
+excerpt_separator:   <!--more-->
+exclude:             [vendor]
+
+# About/contact
+author:
+  name:              Kenny Ho
+#  url:               https://twitter.com/mdo
+#  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
