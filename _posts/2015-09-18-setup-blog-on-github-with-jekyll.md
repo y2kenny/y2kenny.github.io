@@ -9,6 +9,8 @@ tags:
 
 Jekyll is a static site generator designed for generating blog.  GitHub Pages support Jekyll natively.
 
+<!--more-->
+
 ## GitHub setup
 
 You essentially need to create a repository named \<username\>.github.io to host the blog.  You can find more information [here](https://pages.github.com).

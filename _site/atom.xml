@@ -4,7 +4,7 @@
  <title>Instructions to ...</title>
  <link href="https://y2kenny.github.io/atom.xml" rel="self"/>
  <link href="https://y2kenny.github.io/"/>
- <updated>2015-09-18T23:20:16-04:00</updated>
+ <updated>2015-09-18T23:25:36-04:00</updated>
  <id>https://y2kenny.github.io</id>
  <author>
    <name>Kenny Ho</name>
@@ -18,6 +18,8 @@
    <updated>2015-09-18T00:00:00-04:00</updated>
    <id>https://y2kenny.github.io/2015/09/18/setup-blog-on-github-with-jekyll</id>
    <content type="html">&lt;p&gt;Jekyll is a static site generator designed for generating blog.  GitHub Pages support Jekyll natively.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2&gt;GitHub setup&lt;/h2&gt;
 
