@@ -11,7 +11,7 @@
 
   <title>
     
-      Hello world! &middot; Instructions to ...
+      Setup a blog on GitHub with Jekyll &middot; Instructions to ...
     
   </title>
 
@@ -87,10 +87,70 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Hello world!</h1>
-  <span class="post-date">13 Sep 2015</span>
-  <p>Welcome to my blog.  I am starting this to keep track of the things I learn as I learn them.  If you find my notes useful that would be great too.</p>
+  <h1 class="post-title">Setup a blog on GitHub with Jekyll</h1>
+  <span class="post-date">18 Sep 2015</span>
+  <p>Jekyll is a static site generator designed for generating blog.  GitHub Pages support Jekyll natively.</p>
 
+<h2>GitHub setup</h2>
+
+<p>You essentially need to create a repository named &lt;username&gt;.github.io to host the blog.  You can find more information <a href="https://pages.github.com">here</a>.</p>
+
+<h2>Local setup (using Ubuntu 14.04.2 LTS)</h2>
+
+<h3>Setup to use Jekyll</h3>
+
+<ol>
+<li><p>Install ruby-dev (Gem install of Jekyll install needs it to compile some native library)
+<code>
+sudo apt-get install ruby-dev
+</code></p></li>
+<li><p>Install Jekyll (-V for verbose)
+<code>
+sudo gem install -V jekyll
+</code></p></li>
+</ol>
+
+<h3>Additional setup</h3>
+
+<ol>
+<li>Install Pygments for syntax highlight</li>
+</ol>
+<div class="highlight"><pre><code class="language-text" data-lang="text">   sudo apt-get install python-pip
+   sudo pip install pygments
+</code></pre></div>
+<h3>Setup the blog</h3>
+
+<ul>
+<li>Initialize a local git repo</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">   mkdir &lt;username&gt;.github.io
+   git init .
+   git remote add origin https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git
+</code></pre></div>
+<ul>
+<li>Find a Jekyll theme (<a href="https://github.com/jekyll/jekyll/wiki/Themes">There</a> <a href="http://jekyllthemes.org/">are</a> <a href="https://github.com/poole/poole">many</a>)
+
+<ul>
+<li>(I used <a href="http://lanyon.getpoole.com/">Lanyon</a>)</li>
+</ul></li>
+</ul>
+
+<h2>Other notes</h2>
+
+<ul>
+<li>Default markdown preprocessor seems to have <a href="https://github.com/jekyll/jekyll/issues/3724">issues</a>.
+
+<ul>
+<li>I used <a href="https://github.com/vmg/redcarpet">redcarpet</a> instead:</li>
+</ul></li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo gem install redcarpet
+
+#_config.yml
+markdown: redcarpet
+redcarpet:
+  extensions: [&quot;tables&quot;, &quot;fenced_code_blocks&quot;]
+</code></pre></div>
 </div>
 
 <div class="related">
@@ -99,9 +159,9 @@
     
       <li>
         <h3>
-          <a href="/2015/09/18/setup-blog-on-github-with-jekyll/">
-            Setup a blog on GitHub with Jekyll
-            <small>18 Sep 2015</small>
+          <a href="/2015/09/13/hello-world/">
+            Hello world!
+            <small>13 Sep 2015</small>
           </a>
         </h3>
       </li>
