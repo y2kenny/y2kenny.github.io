@@ -5,6 +5,7 @@ published: true
 comments: true
 tags:
 - blog
+- jekyll
 ---
 
 Jekyll is a static site generator designed for generating blog.  GitHub Pages support Jekyll natively.
@@ -62,3 +63,5 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "fenced_code_blocks"]
 ```
+
+* To put tags on GitHub Pages without plugin, follow [these instructions](http://mrloh.se/2015/06/automatic-archives-for-jekyll-on-github-pages/).

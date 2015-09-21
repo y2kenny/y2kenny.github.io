@@ -4,7 +4,7 @@
  <title>Instructions to ...</title>
  <link href="https://y2kenny.github.io/atom.xml" rel="self"/>
  <link href="https://y2kenny.github.io/"/>
- <updated>2015-09-18T23:25:36-04:00</updated>
+ <updated>2015-09-20T21:04:16-04:00</updated>
  <id>https://y2kenny.github.io</id>
  <author>
    <name>Kenny Ho</name>
@@ -80,7 +80,11 @@ sudo gem install -V jekyll
 markdown: redcarpet
 redcarpet:
   extensions: [&amp;quot;tables&amp;quot;, &amp;quot;fenced_code_blocks&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;To put tags on GitHub Pages without plugin, follow &lt;a href=&quot;http://mrloh.se/2015/06/automatic-archives-for-jekyll-on-github-pages/&quot;&gt;these instructions&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
  </entry>
  
  <entry>
