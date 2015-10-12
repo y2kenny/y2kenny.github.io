@@ -4,13 +4,66 @@
  <title>Instructions to ...</title>
  <link href="https://y2kenny.github.io/atom.xml" rel="self"/>
  <link href="https://y2kenny.github.io/"/>
- <updated>2015-09-20T21:04:16-04:00</updated>
+ <updated>2015-10-11T23:32:12-04:00</updated>
  <id>https://y2kenny.github.io</id>
  <author>
    <name>Kenny Ho</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Pickup Clojure and ClojureScript</title>
+   <link href="https://y2kenny.github.io/2015/10/11/pickup-clojure-and-clojurescript/"/>
+   <updated>2015-10-11T00:00:00-04:00</updated>
+   <id>https://y2kenny.github.io/2015/10/11/pickup-clojure-and-clojurescript</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://clojure.org/&quot;&gt;Clojure&lt;/a&gt; is a Lisp dialect that targets the JVM. It is a compiled language with optional type hints and type inference.  It can interop with existing Java libraries.  &lt;a href=&quot;https://github.com/clojure/clojurescript&quot;&gt;ClojureScript&lt;/a&gt; is Clojure targeting JavaScript.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;Development ecosystem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/technomancy/leiningen&quot;&gt;Leiningen&lt;/a&gt; is a popular build / project management system for Clojure.  It can work with Maven and resolve project dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;IDE/Editors&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vim.org&quot;&gt;Vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cursiveclojure.com/&quot;&gt;Cursive (JetBrain IntelliJ)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://doc.ccw-ide.org/documentation.html&quot;&gt;Counterclockwise (Eclipse)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Others&lt;/h3&gt;
+
+&lt;p&gt;Framework:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.luminusweb.net/&quot;&gt;Luminus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/metosin/ring-swagger&quot;&gt;Swagger&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sample architecture:
+&lt;a href=&quot;http://matthiasnehlsen.com/blog/2014/09/24/Building-Systems-in-Clojure-1/&quot;&gt;Building a System in #Clojure&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Exercises / Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set of tutorials &lt;a href=&quot;http://iloveponies.github.io/120-hour-epic-sax-marathon/&quot;&gt;Functional programming in Clojure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Clojure problem set - &lt;a href=&quot;https://www.4clojure.com/&quot;&gt;4Clojure&lt;/a&gt;, &lt;a href=&quot;http://clojurescriptkoans.com/&quot;&gt;ClojureScript Koans&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Communities&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.meetup.com/Clojure-Toronto/&quot;&gt;Clojure Toronto Meetup Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://slack.com&quot;&gt;slack&lt;/a&gt; channels - &lt;a href=&quot;http://clojurians.net/&quot;&gt;Clojurians&lt;/a&gt;, #ClojureTO&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marcuscreo/clojure-learning-resources&quot;&gt;Low hanging fruits for open source Clojure contribution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Setup a blog on GitHub with Jekyll</title>
@@ -63,6 +116,14 @@ sudo gem install -V jekyll
 &lt;ul&gt;
 &lt;li&gt;(I used &lt;a href=&quot;http://lanyon.getpoole.com/&quot;&gt;Lanyon&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Writing a post&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create text file under &lt;code&gt;_posts/&lt;/code&gt; with name &lt;code&gt;yyyy-mm-dd-title.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;jekyll build&lt;/code&gt; if you are not using &lt;code&gt;jekyll serve&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Re-generate tag &lt;code&gt;ruby archive/_generator.rb&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;Other notes&lt;/h2&gt;

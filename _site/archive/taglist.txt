@@ -1,3 +1,7 @@
 blog
 jekyll
+clojure
+clojurescript
+leiningen
+luminus
 

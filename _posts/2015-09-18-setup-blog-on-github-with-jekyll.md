@@ -50,6 +50,11 @@ You essentially need to create a repository named \<username\>.github.io to host
 * Find a Jekyll theme ([There](https://github.com/jekyll/jekyll/wiki/Themes) [are](http://jekyllthemes.org/) [many](https://github.com/poole/poole))
  * (I used [Lanyon](http://lanyon.getpoole.com/))
 
+### Writing a post
+* Create text file under ```_posts/``` with name ```yyyy-mm-dd-title.md```
+* Run ```jekyll build``` if you are not using ```jekyll serve```
+* Re-generate tag ```ruby archive/_generator.rb```
+
 ## Other notes
 
 * Default markdown preprocessor seems to have [issues](https://github.com/jekyll/jekyll/issues/3724).
